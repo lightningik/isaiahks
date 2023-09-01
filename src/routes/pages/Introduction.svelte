@@ -48,7 +48,7 @@
 
     <div class="home-card">
         <h1 class="introtxt">
-            Hello, I'm Isaiah Khan-Shankar.
+            Hello, I'm NAME HERE.
         </h1>
     </div>
 
