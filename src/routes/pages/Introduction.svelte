@@ -77,6 +77,7 @@
         font-size: 100%;
         vertical-align: baseline;
         background: transparent;
+        overflow: hidden;
     }
 
     nav {
@@ -113,7 +114,7 @@
     .bar {
         top: 0;
         width: 10vw;
-        height: 105vh;
+        height: 110vh;
         background: #1a1a1a;
     }
 
@@ -138,6 +139,11 @@
         position: relative;
         display: inline-block;
         margin: auto;
+
+    }
+
+    html, body {
+        overflow: hidden;
     }
 
     :root {
