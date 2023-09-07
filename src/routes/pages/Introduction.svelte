@@ -4,7 +4,7 @@
     import { onMount } from 'svelte';
     onMount(() => {
         gsap.to(".bar", 1.5, {
-            delay: 3.5,
+            delay: 0.5,
             height: 0,
             stagger: {
                 amount: 0.5
@@ -13,7 +13,7 @@
         });
 
         gsap.from(".introtxt", 1.5, {
-            delay: 4,
+            delay: 1,
             y: 700,
             stagger: {
                 amount: 0.5
