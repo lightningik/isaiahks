@@ -124,7 +124,7 @@
         background-color: var(--air-force-blue);
         border-radius: 25px;
         margin: 10px;
-        height: 900px;
+        height: 97.33vh;
 
     }
 
