@@ -2,6 +2,8 @@
     import "@fontsource/roboto/400.css";
     import gsap from 'gsap';
     import { onMount } from 'svelte';
+    import { Canvas} from "@threlte/core";
+    import Scene from '$lib/components/Scene.svelte';
     onMount(() => {
         gsap.to(".bar", 1.5, {
             delay: 0.5,
@@ -50,18 +52,12 @@
         <h1 class="introtxt">
             Hello, I'm NAME HERE.
         </h1>
+
     </div>
 
 
 
-    <div class="container">
-        <nav>
-            <div>
-                <a href="/">About</a>
-                <a href="/">About</a>
-            </div>
-        </nav>
-    </div>
+
 </div>
 
 
@@ -80,28 +76,7 @@
         overflow: hidden;
     }
 
-    nav {
-        position: fixed;
-        top: 0;
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        padding: 1em;
-    }
 
-    nav div {
-        display: flex;
-        padding: 1em;
-        gap: 10em;
-
-    }
-
-    nav div a {
-        text-decoration: none;
-        color: #000;
-        font-family: Inter,sans-serif;
-
-    }
 
     .loading {
         position: fixed;
@@ -121,10 +96,10 @@
     .home-card {
         display: flex;
         justify-content: center;
-        background-color: var(--air-force-blue);
+        background-color: #111;
         border-radius: 25px;
         margin: 10px;
-        height: 97.33vh;
+        height: 900px;
 
     }
 

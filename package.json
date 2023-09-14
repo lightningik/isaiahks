@@ -20,8 +20,10 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@fontsource/roboto": "^5.0.8",
 		"@sveltejs/adapter-netlify": "^2.0.8",
-		"gsap": "^3.12.2"
+		"@threlte/core": "^6.0.8",
+		"@types/three": "^0.156.0",
+		"gsap": "^3.12.2",
+		"three": "^0.156.1"
 	}
 }
