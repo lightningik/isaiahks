@@ -1,5 +1,4 @@
 <script>
-    import "@fontsource/roboto/400.css";
     import gsap from 'gsap';
     import { onMount } from 'svelte';
     import { Canvas} from "@threlte/core";
