@@ -1,11 +1,8 @@
 <script>
-    import Introduction from "./pages/Introduction.svelte";
-    import Navbar from "$lib/components/navbar.svelte";
+    import Introduction from "../pages/Introduction.svelte";
 </script>
 <main>
-    <Navbar/>
     <Introduction />
-
 </main>
 
 <style>
@@ -20,7 +17,7 @@
     }
 
     main {
-        background-color: #1c1c1c;
+        background-color: #694873ff;
         position: absolute;
         top: 0;
         left: 0;
