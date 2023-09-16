@@ -1,6 +1,7 @@
 <script>
     import Introduction from "./pages/Introduction.svelte";
     import Navbar from "$lib/components/navbar.svelte";
+    import Scene from "$lib/components/Scene.svelte";
 </script>
 <main>
     <Navbar/>
@@ -20,7 +21,7 @@
     }
 
     main {
-        background-color: #1c1c1c;
+        background-color: #111;
         position: absolute;
         top: 0;
         left: 0;

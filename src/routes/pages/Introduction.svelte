@@ -23,6 +23,8 @@
         });
 
 
+
+
     })
 
 
@@ -49,10 +51,13 @@
 
     <div class="home-card">
         <h1 class="introtxt">
-            Hello, I'm NAME HERE.
+            Hello, I'm Isaiah Khan-Shankar.
         </h1>
 
+
     </div>
+
+
 
 
 
@@ -71,7 +76,7 @@
         outline: 0;
         font-size: 100%;
         vertical-align: baseline;
-        background: transparent;
+
         overflow: hidden;
     }
 
@@ -95,10 +100,10 @@
     .home-card {
         display: flex;
         justify-content: center;
-        background-color: #111;
+        background-color: #262626;
         border-radius: 25px;
         margin: 10px;
-        height: 900px;
+        height: 97vh;
 
     }
 
@@ -106,7 +111,7 @@
         font-family: Inter,sans-serif;
         text-align: center;
         -webkit-text-fill-color: transparent;
-        background-image: linear-gradient(141deg, #cebbc9ff, #00b2caff);
+        background-image: linear-gradient(141deg, #cebbc9ff, #694873ff);
         -webkit-background-clip: text;
         background-clip: text;
         font-size: 70px;
